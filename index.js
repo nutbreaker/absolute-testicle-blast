@@ -1,2 +1,2 @@
 const crypto = require('crypto');
-console.log(crypto.randomInt());
+console.log(crypto.randomInt(1));
