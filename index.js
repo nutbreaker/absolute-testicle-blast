@@ -1,2 +1,3 @@
 const crypto = require('crypto');
-console.log(crypto.randomInt(1));
+new Uint32Array(100).forEach(a => console.log(crypto.randomInt(100)));
+
