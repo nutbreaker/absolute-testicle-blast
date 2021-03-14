@@ -9,7 +9,7 @@ name: Absolute Testicle Blast
 on:
   push:
   schedule:
-  - cron: "* * * * *"
+  - cron: '* * * * *'
 
 jobs:
   build:
