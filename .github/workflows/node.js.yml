@@ -9,10 +9,10 @@ name: Absolute Testicle Blast
 on:
   push:
   schedule:
-  - cron: '* * * * *'
+  - cron: '*/5 * * * *'
 
 jobs:
-  build:
+  Absolute-Testicle-Blast:
     runs-on: ubuntu-latest
 
     steps:
