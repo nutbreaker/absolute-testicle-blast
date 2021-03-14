@@ -8,7 +8,7 @@ name: Absolute Testicle Blast
 #     branches: [ main ]
 on:
   schedule:
-  - cron: "*/1 * * * *"
+  - cron: "* * * * *"
 
 jobs:
   build:
