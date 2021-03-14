@@ -16,5 +16,8 @@ jobs:
       matrix:
         node-version: [14.x]
     steps:
-    - uses: actions/checkout@v2
-    - run: node index.js
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Run shit
+      run: node index.js
