@@ -9,7 +9,7 @@ name: Absolute Testicle Blast
 on:
   push:
   schedule:
-  - cron: '*/5 * * * *'
+  - cron: '*/30 * * * *'
 
 jobs:
   Absolute-Testicle-Blast:
@@ -20,5 +20,7 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: "14.x"
-    - name: Run shit
-      run: node index.js
+    - name: Tacos
+      run: |
+        npm ci
+        node index.js
